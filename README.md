@@ -1,1 +1,1 @@
-https://celestialinsomniac.github.io/Portfolio/Home/
+https://celestialinsomniac.github.io/Portfolio/
