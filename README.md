@@ -1,1 +1,1 @@
-https://github.com/CelestialInsomniac/Portfolio.git
+https://celestialinsomniac.github.io/Portfolio/
