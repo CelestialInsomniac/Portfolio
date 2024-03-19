@@ -15,10 +15,12 @@ body {
     display: flex;
     flex-grow: 1;
     flex-basis: 0;
-    color: white;
-    font-size: 3em;
-    text-decoration: none;
     text-align: center;
+}
+#title a {
+    color: white;
+    font-size: 3rem;
+    text-decoration: none;
 }
 
 /* (A) WRAPPER */
