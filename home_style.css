@@ -4,23 +4,29 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#title{
-    color: white;
-    font-size: 3em;
-    text-align: center;
-  }
 
 /*-----Text----*/
 
 
 /*-----Klassen----*/
 /* [ON BIG SCREEN] */
+
+#title {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    color: white;
+    font-size: 3em;
+    text-decoration: none;
+    text-align: center;
+}
+
 /* (A) WRAPPER */
 #hamnav {
     width: 100%;
     background: #2d2a2a;
     position: sticky;
-    top: 0;  
+    top: 0;
 }
 
 /* (B) HORIZONTAL MENU ITEMS */
@@ -60,8 +66,8 @@ body {
       width: 100%;
       border-top: 1px solid #333;
     }*/
-   
-    /* (B) SHOW HAMBURGER ICON
+
+/* (B) SHOW HAMBURGER ICON
     #hamnav label { 
       display: inline-block; 
       color: rgb(213, 213, 213);
@@ -70,8 +76,8 @@ body {
       font-size: 1.2em;
       padding: 10px;
     } */
-  
-    /* (C) TOGGLE SHOW/HIDE MENU
+
+/* (C) TOGGLE SHOW/HIDE MENU
     #hamitems { display: none; }
     #hamnav input:checked ~ #hamitems { display: block; }
   }*/
