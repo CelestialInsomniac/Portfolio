@@ -1,5 +1,5 @@
 body {
-    background-color: #000000;
+    background-color: #2d2a2a;
     font-size: 2vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -12,7 +12,7 @@ body {
 /* (A) WRAPPER */
 #hamnav {
     width: 100%;
-    background: #000;
+    background: #2d2a2a;
     position: sticky;
     top: 0;  
 }
@@ -32,7 +32,7 @@ body {
 }
 
 #hamitems a:hover {
-    background: #ea606000;
+    background: #2d2a2a;
     text-decoration: underline;
 }
 
@@ -56,7 +56,7 @@ body {
     /* (B) SHOW HAMBURGER ICON */
     #hamnav label { 
       display: inline-block; 
-      color: white;
+      color: rgb(213, 213, 213);
       background: #2e4712;
       font-style: normal;
       font-size: 1.2em;
