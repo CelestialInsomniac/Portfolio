@@ -11,16 +11,32 @@ body {
 /*-----Klassen----*/
 /* [ON BIG SCREEN] */
 
-#title {
+/*#title {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+}*/
+#title a:link {
+    color: white;
+    font-size: 3rem;
+    font-weight:bold;
+    text-decoration: none;
     display: flex;
     flex-grow: 1;
     flex-basis: 0;
     text-align: center;
 }
-#title a {
+
+#title a:visited {
     color: white;
     font-size: 3rem;
+    font-weight:bold;
     text-decoration: none;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
 }
 
 /* (A) WRAPPER */
